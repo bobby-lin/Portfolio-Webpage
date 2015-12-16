@@ -1,3 +1,27 @@
 body {
-    padding-top: 75px;
+    padding-top: 50px;
+}
+
+#home {
+    padding-top:100px;
+    height:700px;
+    background-color: #1E88E5;
+}
+
+#about {
+    padding-top:100px;
+    height:740px;
+    background-color: #00bcd4;
+}
+
+#portfolio {
+    padding-top:100px;
+    height:740px;
+    background-color: #673ab7;
+}
+
+#contact {
+    padding-top:100px;
+    height:740px;
+    background-color: #ff9800;
 }
