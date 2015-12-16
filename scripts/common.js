@@ -11,5 +11,4 @@ $('.nav a').on('click', function(){
     $('html,body').animate({
         scrollTop: $(header).offset().top - adjustment
     }, speed);
-    
 });
