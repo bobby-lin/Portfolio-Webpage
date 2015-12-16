@@ -4,9 +4,7 @@
  */
 
 $('.nav a').on('click', function(){
-    if (navbar_toggle.is(':visible')) {
-        $(".navbar-toggle").click();
-    }
+    $(".navbar-toggle:visible").click();
     var adjustment = 50;
     var speed = 1;
     var header = this.hash;
