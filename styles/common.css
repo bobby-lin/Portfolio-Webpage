@@ -36,6 +36,35 @@ body {
     background-color: #bdc3c7;
 }
 
+.fa-facebook {
+    background:#3b5998;
+    color: white;
+    padding: 15px 20px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+.fa-facebook:hover {
+    background:#3b5980;
+    color: white;
+}
+
+.fa-github {
+    background:#FFFFFF;
+    color: black;
+    font-size: 46px;
+    border-radius: 60%;
+}
+
+.fa-github:hover {
+    background: black;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    font-size:44px;
+}
+
 /*
 
 If we want default navbar to have a collapsible menu
