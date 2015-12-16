@@ -10,8 +10,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
-  <nav class="nav navbar-inverse navbar-fixed-top">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="nav navbar-inverse navbar-fixed-top" id="navBar">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#siteNavbar">
@@ -24,7 +24,8 @@
       <div class = "collapse navbar-collapse" id="siteNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#home">Home</a></li>
-          <li><a href="#porfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -32,17 +33,75 @@
   </nav>
   
   <section id="home">
-    <div class="container-fluid"></div>
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="jumbotron">
+          <h2 class="text-center">Web development</h2>
+          <div class="panel-body">
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. 
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, 
+            ut fermentum massa justo sit amet risus.
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-
+  
+  <section id="about">
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading"><h1 class="text-center">About</h1></div>
+        <div class="panel-body">
+          Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
+          Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, 
+          porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+        </div>
+        <div class="panel-body">
+          Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
+          Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, 
+          porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+        </div>
+        <div class="panel-body">
+          Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
+          Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, 
+          porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+        </div>
+      </div>
+    </div>
+  </section>
+ 
   <section id="portfolio">
-    <div class="container-fluid"></div>
+    <div class="container">
+      <div class="panel panel-default">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="panel-body">
+          <div class="row text-center">
+            <div class="col-xs-3" id="p1">Project 1</div>
+            <div class="col-xs-3" id="p2">Project 2</div>
+            <div class="col-xs-3" id="p3">Project 3</div>
+            <div class="col-xs-3" id="p4">Project 4</div>
+          </div>
+          <div class="row text-center">
+            <div class="col-xs-3" id="p5">Project 5</div>
+            <div class="col-xs-3" id="p6">Project 6</div>
+            <div class="col-xs-3" id="p7">Project 7</div>
+            <div class="col-xs-3" id="p8">Project 8</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="contact">
-    <div class="container-fluid"></div>
+    <div class="container">
+      <div class="panel panel-default">
+        <h1 class="text-center">Contact</h1>
+      </div>
+    </div>
   </section>
   
+  <script type="text/javascript" src="scripts/common.js"></script>
 </body>
 
 </html>
